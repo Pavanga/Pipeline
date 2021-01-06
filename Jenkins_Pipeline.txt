@@ -1,0 +1,41 @@
+What is a multibranch pipeline (pipeline Job vs multibranch pipeline Job) ? 
+	
+Continuous Integration	(CI/CD)
+Continuous Delivery 
+Continuous Deployment
+
+Continuous Delivery Vs Deployment
+
+Jeknins folder structure ?
+	
+Jeknins 
+	What is a parameterised Job ?
+		Based on the user input, If we want to decide the operation of 
+		Job then we need make that job parameterised
+			-> Go to General section of Job -> chek This Project is parameterised
+		
+	How to run Jenkins Job parallely
+	
+Jenkins Pipeline
+	Jenkins pipeline is a type of Job supports implemeting and integrating 
+	Continuous integrating and Continuous delivery into different stages and 
+	we can control the execution of these stages.
+	
+Types of Jenkins pipeline (only 2 types) ? What type of pipeline you are using ?
+	Jenkinsfile
+	  - This is a file in which we write our Jenkins pipeline configuration.
+	  - Pipeline configuration is written groovy language.
+	  - Code is written in Jenkinsfile and we check-in this file 
+	    to a SCM (git).
+	  
+	Declarative pipeline
+	  - New way of writting groovy with simple groovy declaratives.
+	  - All code is written inside pipeline block.	
+	
+	Scripted pipeline
+	  - Traditional way of writting pipeline job with scripted syntax.
+	  - All code is written inside node block.
+	  
+	
+	
+	
